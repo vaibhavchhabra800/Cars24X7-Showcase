@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CollegeDunia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+<br/><br/>
+<br/><br/>
+<div class="wrapper">
+    <div>
+        <img src="./assets/blue.jpg" class="blueimg imgsize"/>
+        <img src="./assets/red.jpg" class="redimg imgsize" />
+        <img src="./assets/grey.jpg" class="greyimg imgsize"/>
+        <img src="./assets/silver.jpg" class="silverimg imgsize"/>
+        <div class="colourstable ">
+            <div class="blue colourbox">
+            </div>
+            <div class="grey colourbox">
+            </div>
+            <div class=" red colourbox">
+            </div>
+            <div class="silver colourbox">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <br>
+        <div class="ratingshead bold">Ratings</div>
+        <br><br>
+        <div class="bold"> Critic's rating
+        </div>
+
+        <div id= "myProgress" class="myProgress barsize ">
+            <div id="myBar" class="myBar"></div>
+
+        </div>
+        <div class="bold" id="id87">87
+        </div>
+
+        <br><br>
+        <div class="bold">
+        Performance
+        </div>
+
+        <div id= "myProgress2" class="myProgress barsize">
+            <div id="myBar2" class="myBar">
+
+            </div>
+
+        </div>
+        <div class="bold" id="id64">
+        64
+        </div>
+    </div>
+
+
+    <div class="centre1 gauge">
+        <br>
+        <br>
+        <canvas  id="canvas-preview"></canvas>
+        <div id="preview-textfield" class="text1" >0%</div>
+        <br>
+        <div class="ratingtext">Overall Rating</div>
+
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="http://bernii.github.io/gauge.js/dist/gauge.min.js"></script>
+<script src="actions.js"></script>
+</body>
+</html>
